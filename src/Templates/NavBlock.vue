@@ -27,11 +27,11 @@ const goToLink = (href: string) => {
             <p
                 class="text-dark-50 font-orbitron select-none flex justify-center lg:justify-normal items-center ml-10 lg:mr-5 font-normal text-[min(30px,3vw)]">
                 <i class="fa-regular fa-planet-ringed mr-2"></i>
-                XME-HOME
+                LANXI-HOME
             </p>
             <ul
                 class="text-dark-50 font-orbitron font-light select-none text-[1.3em] flex justify-center lg:justify-normal items-center mr-5">
-                <!-- <li class="lg:mr-5 font-normal text-3xl"><i class="fa-regular fa-planet-ringed"></i> XME-HOME
+                <!-- <li class="lg:mr-5 font-normal text-3xl"><i class="fa-regular fa-planet-ringed"></i> LANXI-HOME
                 </li> -->
                 <li v-for="item in props.navItems"
                     class="pointer-events-auto inline-block mt-5 mb-5 lg:m-3 lg:mt-3 lg:mb-3 mr-[2vw] ml-[2vw] active:text-dark-200 transition-all hover:text-shadow-dark-100 litem">

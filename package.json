@@ -42,5 +42,9 @@
     "vite": "^7.0.6",
     "vite-plugin-vue-devtools": "^8.0.0",
     "vue-tsc": "^3.0.4"
+  },
+  "allowScripts": {
+    "@tailwindcss/oxide@4.1.11": true,
+    "esbuild@0.25.8": true
   }
 }

@@ -114,13 +114,13 @@ onMounted(() => {
                     :delay="0.4">
                     <div
                         class=" border-2 inline-block mt-5 rounded-xl text-primary-200 hover:text-primary-50 btn hovertrans">
-                        <a href="https://blog.xzadudu179.top/links/" class="inline-block p-3 pl-5 pr-5" target="_blank">
+                        <a href="https://blog.Lanxi.top/links/" class="inline-block p-3 pl-5 pr-5" target="_blank">
                             EXCHANGE LINK
                         </a>
                     </div>
                 </AnimatedContent>
             </div>
-            <Comment class="hg:w-[90%] m-auto" path="/links/" serverURL="https://comment.xzadudu179.top/" />
+            <Comment class="hg:w-[90%] m-auto" path="/links/" serverURL="https://comment.Lanxi.top/" />
         </div>
     </div>
     <Footer margin-top="5vh" />

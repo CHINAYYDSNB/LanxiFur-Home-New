@@ -110,26 +110,21 @@ onMounted(() => {
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.1">
-                                <p class="hoverlight">NAME: <span>XZADUDU179</span></p>
+                                <p class="hoverlight">NAME: <span>岚汐-LanxiFur</span></p>
                             </AnimatedContent>
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.2">
-                                <p class="hoverlight">BIRTH: <span>2007-04-04</span></p>
+                                <p class="hoverlight">FIELD: <span>OPS & BIO</span></p>
                             </AnimatedContent>
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.3">
-                                <p class="hoverlight">FIELD: <span>PROGRAM</span></p>
+                                <p class="hoverlight">INTEREST: <span>FURRY & CREATION</span></p>
                             </AnimatedContent>
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.4">
-                                <p class="hoverlight">INTEREST: <span>CREATION</span></p>
-                            </AnimatedContent>
-                            <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
-                                ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
-                                :threshold="0" :delay="0.5">
                                 <p class="hoverlight">LOCATION: <span>CHINA</span></p>
                             </AnimatedContent>
                         </div>
@@ -150,27 +145,27 @@ onMounted(() => {
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.1">
-                                <p class="hoverlight"><span>DEVELOPER</span></p>
+                                <p class="hoverlight"><span>SYSADMIN</span></p>
                             </AnimatedContent>
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.2">
-                                <p class="hoverlight"><span>COMPOSER</span></p>
+                                <p class="hoverlight"><span>BIOLOGY</span></p>
                             </AnimatedContent>
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.3">
-                                <p class="hoverlight">UX DESIGNER</p>
+                                <p class="hoverlight">FURRY</p>
                             </AnimatedContent>
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.4">
-                                <p class="hoverlight">PHOTOGRAPHER</p>
+                                <p class="hoverlight">SOFTWARE</p>
                             </AnimatedContent>
                             <AnimatedContent :distance="50" direction="vertical" :reverse="false" :duration="1.1"
                                 ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1"
                                 :threshold="0" :delay="0.5">
-                                <p class="hoverlight mb-[0.8em] hg:mb-0">PRODUCER</p>
+                                <p class="hoverlight mb-[0.8em] hg:mb-0">GAMER</p>
                             </AnimatedContent>
                         </div>
                     </div>
@@ -198,28 +193,10 @@ onMounted(() => {
         <div class="text-5xl projects font-orbitron text-dark-200 text-center pt-[10rem]">
             <!-- <h2 class="mt-50 text-4xl md:text-8xl">/ WORK IN PROCESS /</h2>
             <h2 class="pt-5">...页面制作中...</h2> -->
-            <ProjectCard class="ml-0 hg:ml-[8vw]" imageSrc="https://image.179.life/images/deon-avatar-big.webp"
-                title="XME-Deon-Bot" href="https://docs.xme.179.life/#/"
-                :descs="['One of my QQ bot services, mainly offering entertainment features.', 'Built with Python and Go (API Server).']"
-                date="2024.10.11"></ProjectCard>
-            <ProjectCard :reverse-animation-direction="true" class="mr-0 hg:mr-[8vw]"
-                imageSrc="https://image.179.life/images/background-dark-with-header.webp" title="XME Notes Library"
-                href="https://blog.xzadudu179.top/"
-                :descs="['Personal blog for sharing my life, introducing myself, and showcasing my personality.']"
-                date="2024.09.03"></ProjectCard>
-            <ProjectCard class="ml-0 hg:ml-[8vw]" imageSrc="https://image.179.life/images/milcalc-cover.webp"
-                title="MilAerno Theme " href="https://mhtlim.top"
-                :descs="['A theme designed and created for Milthm-Calculator, intended to help players conveniently check their in-game scores.']"
-                date="2025.10.12"></ProjectCard>
-            <ProjectCard :reverse-animation-direction="true" class="mr-0 hg:mr-[8vw]"
-                imageSrc="https://image.179.life/images/aerno-cover.webp" title="Aerno Theme"
-                href="https://github.com/xzadudu179/Aerno-Theme"
-                :descs="['A clean blue-purple Visual Studio Code theme designed for dark mode.']" date="2024.03.07">
-            </ProjectCard>
-            <ProjectCard class="ml-0 hg:ml-[8vw]" imageSrc="https://image.179.life/images/home-cover.webp"
-                title="XME-Home" href="https://www.xzadudu179.top"
-                :descs="['Homepage for introducing myself, filled with everything about me. Some components from Vue-Bits.']"
-                date="2025.08.11"></ProjectCard>
+            <ProjectCard class="ml-0 hg:ml-[8vw]" imageSrc="https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg"
+                title="Tianxuan" href="https://github.com/CHINAYYDSNB/Tianxuan"
+                :descs="['1Panel Linux 服务器面板的第三方移动管理工具，支持服务器监控、Docker 容器管理、网站管理、文件管理和 SSH 终端。', '基于 Flutter 和 Dart 构建，支持 Android 和 Web 平台。']"
+                date="2026.07"></ProjectCard>
         </div>
         <div class="mt-[10rem]">
             <ScrollVelocity :texts="[' CONNEC\u200ATION //', '\\\\ CONNEC\u200ATION ']" :velocity="100" :damping="50"
@@ -241,20 +218,11 @@ onMounted(() => {
             <!-- <p class="text-[2em] text-center">Feel free to reach me out for collaborations or commissions!</p> -->
 
             <div class="flex flex-col md:w-full contact-container m-auto justify-center lg:flex-row lg:justify-evenly">
-                <div class="flex justify-around lg:justify-between self-center mb-8 ">
-                    <div class="flex flex-col items-center">
-                        <div class="qr overlay">
-                            <img src="https://image.179.life/QRcode/QR_WX.webp" class="" alt=""></img>
-                        </div>
-                        <p class="qr-text">WeChat</p>
+                <div class="flex flex-col items-center self-center mb-8 lg:mb-0">
+                    <div class="qr overlay">
+                        <img src="data:image/png;base64,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" class="" alt=""></img>
                     </div>
-                    <div class="flex flex-col items-center">
-                        <div class="qr overlay">
-                            <img src="https://image.179.life/QRcode/QR_QQ.webp" class="" alt=""></img>
-                        </div>
-                        <p class="qr-text">QQ</p>
-                    </div>
-
+                    <p class="qr-text">QQ</p>
                 </div>
                 <div
                     class="w-0 h-[18em] border-r-2 border-dark-200 hidden lg:flex place-self-center mb-4 relative right-[4px]">
@@ -266,29 +234,21 @@ onMounted(() => {
                         <AnimatedContent :distance="30" direction="vertical" :reverse="false" :duration="1.1"
                             ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1" :threshold="0.1"
                             :delay="0.1">
-                            <p><a href="mailto:terra179@163.com" class="hovertrans cursor-target email"><i
+                            <p><a href="mailto:3636115238@qq.com" class="hovertrans cursor-target email"><i
                                         class="fa-regular fa-envelope pr-[0.3em] email-icon"></i>Email
                                 </a></p>
                         </AnimatedContent>
                         <AnimatedContent :distance="30" direction="vertical" :reverse="false" :duration="1.1"
                             ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1" :threshold="0.1"
                             :delay="0.2">
-                            <p><a target="_blank" href="https://github.com/xzadudu179"
+                            <p><a target="_blank" href="https://github.com/CHINAYYDSNB"
                                     class=" inline-hovertrans cursor-target"><i
                                         class="fa-brands fa-github pr-[0.3em]"></i>Github</a></p>
                         </AnimatedContent>
                         <AnimatedContent :distance="30" direction="vertical" :reverse="false" :duration="1.1"
                             ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1" :threshold="0.1"
                             :delay="0.3">
-                            <p><a target="_blank" href="https://x.com/xzadudu179"
-                                    class="inline-hovertrans cursor-target"><i
-                                        class="fa-brands fa-x-twitter pr-[0.2em]"></i>Twitter</a>
-                            </p>
-                        </AnimatedContent>
-                        <AnimatedContent :distance="30" direction="vertical" :reverse="false" :duration="1.1"
-                            ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1" :threshold="0.1"
-                            :delay="0.4">
-                            <p><a target="_blank" href="https://space.bilibili.com/70738350"
+                            <p><a target="_blank" href="https://space.bilibili.com/1809183586"
                                     class="inline-hovertrans cursor-target"><i
                                         class="fa-brands fa-bilibili pr-[0.3em]"></i>Bilibili</a>
                             </p>

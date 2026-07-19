@@ -20,28 +20,26 @@ onMounted(() => {
                     <template #title>
                         NAME:
                     </template>
-                    <h1 id="chac-name" class="hoverlight text-primary-100 ">九镹-xzadudu179</h1>
+                    <h1 id="chac-name" class="hoverlight text-primary-100 ">岚汐-Lanxi</h1>
                 </InfoItem>
                 <InfoItem>
                     <template #title>
                         DESC:
                     </template>
-                    <p class="hoverlight">正在四处游荡中...</p>
-                    <p class="hoverlight">想被别人发现，喜欢尝试新的事物</p>
-                    <p class="hoverlight">喜欢太空、科幻、像素风格一类的东西~</p>
-                    <p class="hoverlight">想做全栈，想展示自己的世界观</p>
+                    <p class="hoverlight">一个苦命小兽兽 巨型大I人</p>
+                    <p class="hoverlight">偷感极强</p>
+                    <p class="hoverlight">喜欢毛茸茸、运维和生物学</p>
+                    <p class="hoverlight">尝试成为自己的主人</p>
                 </InfoItem>
                 <InfoItem>
                     <template #title>
                         STUDING:
                     </template>
                     <div class="itemnavs">
-                        <IconNav class=" linenav" name="Vue.js" icon-class="fa-brands fa-vuejs">
+                        <IconNav class=" linenav" name="Linux" icon-class="fa-brands fa-linux">
                         </IconNav>
-                        <IconNav class=" linenav" name="CSS" icon-class="fa-brands fa-css3"></IconNav>
+                        <IconNav class=" linenav" name="HTML" icon-class="fa-brands fa-html5"></IconNav>
                         <IconNav class=" linenav" name="Python" icon-class="fa-brands fa-python">
-                        </IconNav>
-                        <IconNav class=" linenav" name="C-sharp" icon-class="fa-brands fa-microsoft">
                         </IconNav>
                     </div>
                 </InfoItem>
@@ -205,6 +203,7 @@ main {
 
 .infos {
     padding: 40px 0;
+    padding-left: 30px;
     padding-bottom: 33px;
     width: 450px;
     max-width: 450px;
@@ -219,12 +218,12 @@ main {
 .avatar {
     /* height: 100%; */
     margin: 20px 0;
-    margin-left: 0;
+    margin-left: 20px;
     width: 40%;
-    background: url("../assets/img/avatar.png");
+    background: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: -37px;
+    background-size: contain;
+    background-position: center;
     transition-property: background, box-shadow, text-shadow;
     transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
@@ -253,7 +252,7 @@ main {
 
 .avatar:hover {
     filter: drop-shadow(0 0 15px #acbfff80);
-    background-image: url("../assets/img/avatar2.png");
+    background-image: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
     /* border: 3px solid red; */
     transform: scale(1.02);
 }
@@ -303,7 +302,7 @@ main {
     }
 
     .avatar {
-        background-image: url("https://image.179.life/images/179.png");
+        background-image: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
         max-height: 275px;
         height: 100%;
         width: 100%;
@@ -314,7 +313,7 @@ main {
     }
 
     .avatar:hover {
-        background-image: url("https://image.179.life/images/179.png");
+        background-image: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
     }
 
     .infos {
@@ -367,7 +366,7 @@ main {
 
 @media (max-height: 500px) {
     .avatar {
-        background-image: url("/src/assets/img/avatar.png");
+        background-image: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
         max-width: 200px;
         height: 250px;
         padding: 20px;
@@ -378,7 +377,7 @@ main {
     }
 
     .avatar:hover {
-        background-image: url("/src/assets/img/avatar2.png");
+        background-image: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
     }
 
     .itemnavs {
@@ -482,7 +481,7 @@ main {
     }
 
     .avatar {
-        background-image: url("https://image.179.life/images/179.png");
+        background-image: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
         height: 250px;
         width: 100%;
         margin-bottom: 0;
@@ -491,7 +490,7 @@ main {
     }
 
     .avatar:hover {
-        background-image: url("https://image.179.life/images/179.png");
+        background-image: url("https://pic.lingqi.vip/d46dfee7f5bf34ec979f3f0d68a66d3d.jpg");
     }
 
     /* .find-me {

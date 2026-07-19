@@ -4,16 +4,13 @@
         :style="{ marginTop: props.marginTop }">
         <p class="w-full copyright">© 2025 - {{ curYear }}
             <i class="fa-regular fa-star fa-spin"></i>
-            xzadudu179 All rights reserved
+            Lanxi All rights reserved
         </p>
-        <p><a href="https://icp.gov.moe/?keyword=20251790" class="hover-primary" target="_blank">萌ICP备20251790号</a></p>
+        <p><a href="https://beian.miit.gov.cn/" class="hover-primary" target="_blank">湘ICP备2025145910号-2</a></p>
         <p>
-            <a class="hover-primary" target="_blank" href="https://travel.moe/go.html?travel=on">
-                <i class="fa-light fa-meteor"></i>
-                MoeTravel
-                <i class="fa-regular fa-chevron-right"></i>
-                <i class="fa-regular fa-chevron-right"></i>
-            </a>
+            <span class="text-dark-400">基于 </span>
+            <a class="hover-primary" target="_blank" href="https://github.com/xzadudu179/XME-Home-New">XME-Home-New</a>
+            <span class="text-dark-400"> 二次开发</span>
         </p>
     </footer>
 </template>

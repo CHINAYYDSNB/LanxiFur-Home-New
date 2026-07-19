@@ -36,52 +36,32 @@ const techLogos = [
     {
         node: '<i class="fa-brands fa-github"></i>',
         title: "Github",
-        href: "https://github.com/xzadudu179"
-    },
-    {
-        node: '<i class="fa-brands fa-x-twitter"></i>',
-        title: "Twitter/X",
-        href: "https://x.com/xzadudu179"
+        href: "https://github.com/CHINAYYDSNB"
     },
     {
         node: '<i class= "fa-light fa-planet-ringed" ></i>',
         title: "Personal Blog",
-        href: "https://blog.xzadudu179.top"
-    },
-    {
-        node: '<i class="fa-brands fa-qq"></i>',
-        title: "QQ",
-        href: "https://qm.qq.com/q/rDgajaqKvm"
+        href: "https://blog.lanxis.top/"
     },
     {
         node: '<i class="fa-brands fa-bilibili"></i>',
         title: "Bilibili",
-        href: "https://space.bilibili.com/70738350"
-    },
-    {
-        node: '<i class="fa-brands fa-youtube"></i>',
-        title: "YouTube",
-        href: "https://www.youtube.com/channel/UCQVFa42_lhkmYlfog1B2_Wg"
+        href: "https://space.bilibili.com/1809183586"
     },
     {
         node: '<i class="fa-brands fa-wikipedia-w"></i>',
-        title: "WikiPedia",
-        href: "https://zh.wikipedia.org/wiki/User:Xzadudu179"
+        title: "Wiki",
+        href: "https://wiki.lanxis.top/"
     },
     {
         node: '<i class="afdian-icon"></i>',
         title: "afdian",
-        href: "https://afdian.com/a/xzadudu179"
+        href: "https://ifdian.net/a/Lanxifurry"
     },
     {
         node: '<i class="cloudmusic-icon"></i>',
         title: "CloudMusic",
-        href: "https://163cn.tv/J3SPhPS"
-    },
-    {
-        node: '<i class="wakatime-icon"></i>',
-        title: "WakaTime",
-        href: "https://wakatime.com/@xzadudu179"
+        href: "https://music.163.com/#/user/home?id=8187955190"
     },
 ];
 
@@ -125,7 +105,7 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                             ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.05" :threshold="0"
                             :always-play="true" :delay="0.6">
                             <p class="ml-[1em] lg:ml-0 text-3xl lg:text-4xl mt-2 mb-2"><span
-                                    class="hoverlight">xzadudu179</span></p>
+                                    class="hoverlight">岚汐-Lanxi</span></p>
                         </AnimatedContent>
                         <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                             ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.05" :threshold="0"
@@ -136,8 +116,7 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                             ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.05" :threshold="0"
                             :always-play="true" :delay="0.8">
                             <p class="ml-[1em] lg:ml-0 text-3xl lg:text-4xl mt-2"><span
-                                    class="hoverlight">Yangzhou</span>,
-                                <span class="hoverlight">Jiangsu</span>,
+                                    class="hoverlight">Henan</span>,
                                 <span class="hoverlight">China</span>
                             </p>
                         </AnimatedContent>
@@ -150,7 +129,7 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                             ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.05" :threshold="0"
                             :always-play="true" :delay="1">
                             <p class="ml-[1em] lg:ml-0 text-3xl lg:text-4xl mt-2 mb-2"><span
-                                    class="hoverlight">2007-04-04</span></p>
+                                    class="hoverlight">2010-02-16</span></p>
                         </AnimatedContent>
                     </div>
                 </div>
@@ -158,7 +137,7 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1" :threshold="0"
                         :always-play="true" :delay="0.5">
-                        <div><a href="https://blog.xzadudu179.top"
+                        <div><a href="https://blog.lanxis.top/"
                                 class="hover-primary cursor-target no-cursor pr-1 pl-1 m-2"><i
                                     class="fa-light fa-planet-ringed"></i></a>
 
@@ -167,7 +146,7 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1.1" :threshold="0"
                         :always-play="true" :delay="0.5">
-                        <div><a href="https://github.com/xzadudu179"
+                        <div><a href="https://github.com/CHINAYYDSNB"
                                 class="hover-primary cursor-target no-cursor pr-1 pl-1 m-2"><i
                                     class="fa-brands fa-github"></i></a></div>
                     </AnimatedContent>
@@ -198,33 +177,33 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1" :threshold="0"
                         :always-play="true" :delay="0.7">
-                        <p><span class="hoverlight">a.k.a. 九镹、九九、179</span></p>
+                        <p><span class="hoverlight">a.k.a. 岚汐</span></p>
                     </AnimatedContent>
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1" :threshold="0"
                         :always-play="true" :delay="0.8">
-                        <p><span class="hoverlight">一个正在四处游荡与探索的小生物... 对于前端、动效、UX 设计有着奇怪的着迷？</span>
+                        <p><span class="hoverlight">一个苦命小兽兽 巨型大I人</span>
                         </p>
                     </AnimatedContent>
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1" :threshold="0"
                         :always-play="true" :delay="0.9">
-                        <p><span class="hoverlight">什么都做一点，副业是曲师，想做出自己的游戏，以及参与更多人的项目。</span></p>
+                        <p><span class="hoverlight">偷感极强</span></p>
                     </AnimatedContent>
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1" :threshold="0"
                         :always-play="true" :delay="1">
-                        <p><span class="hoverlight">想在世界上留下足迹，让更多人发现自己...</span></p>
+                        <p><span class="hoverlight">喜欢毛茸茸、运维和生物学</span></p>
                     </AnimatedContent>
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1" :threshold="0"
                         :always-play="true" :delay="1.1">
-                        <p><span class="hoverlight">对于细节莫名地在意，是一个偏向于完美主义的人 _(・ω・｣ ∠)_</span></p>
+                        <p><span class="hoverlight">尝试成为自己的主人</span></p>
                     </AnimatedContent>
                     <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1"
                         ease="power3.out" :initial-opacity="0" :animate-opacity="true" :scale="1" :threshold="0"
                         :always-play="true" :delay="1.2">
-                        <p><span class="hoverlight">正在努力学前端，希望可以做出很漂亮且实用的网页～</span></p>
+                        <p><span class="hoverlight">Linux / HTML / Python 学习中</span></p>
                     </AnimatedContent>
                 </div>
             </AnimatedContent>
@@ -255,9 +234,9 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                 <AnimatedContent :distance="20" direction="vertical" :reverse="false" :duration="1.1" ease="power3.out"
                     :initial-opacity="0" :animate-opacity="true" :scale="1.05" :threshold="0" :always-play="true"
                     :delay="0.8">
-                    <p class="indent-[1em]"><span class="hoverlight">自己喜欢用音乐的方式展现自己内心的世界...以及讲述故事一类的。</span>
+                    <p class="indent-[1em]"><span class="hoverlight">爱听音乐，风格广泛</span>
                     </p>
-                    <p class="indent-[1em]"><span class="hoverlight">平时忽然有灵感的话，或许会写一首曲子玩玩。</span>
+                    <p class="indent-[1em]"><span class="hoverlight">（原作者的歌很好听，就放着了）</span>
                     </p>
                 </AnimatedContent>
                 <div
@@ -326,7 +305,7 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
                     <p><span class="hoverlight">可以去我的博客看看哦！里面分享了很多有关我生活的东西，对于自己的介绍也与这里有些许的不同...</span>
                     </p>
                 </div>
-                <a href="https://blog.xzadudu179.top" class="no-cursor">
+                <a href="https://blog.Lanxi.top" class="no-cursor">
                     <div
                         class="p-5 border-4 border-dark-400 rounded-2xl m-auto hovertrans hover-primary active-primary cursor-target">
                         <p class="w-full text-center text-2xl">
@@ -386,7 +365,7 @@ const type_texts = ['printf("Hello, World.");', 'print("Hello, World.")', 'conso
 }
 
 .avatar {
-    background-image: url(https://image.179.life/images/avatar-big.webp);
+    background-image: url(https://pic.lingqi.vip/logo11.jpg);
     background-size: contain;
     /* border-radius: 20000px; */
 }

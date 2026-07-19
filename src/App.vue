@@ -76,14 +76,14 @@ const beleft = () => {
     <div
         class="nav-container w-[100vw] lg:w-[100vw] top-0 text-dark-100 hidden md:block fixed z-[1000] border-dark-500 pointer-events-none">
         <NavBlock
-            :navItems="[{ text: 'Home', href: '/' }, { text: 'About', href: '/about' }, { text: 'Links', href: '/links' }, { text: 'Notes', href: 'https://blog.xzadudu179.top' }]" />
+            :navItems="[{ text: 'Home', href: '/' }, { text: 'About', href: '/about' }, { text: 'Links', href: '/links' }, { text: 'Notes', href: 'https://blog.lanxis.top/' }, { text: '爱发电', href: 'https://ifdian.net/a/Lanxifurry' }]" />
     </div>
     <!-- switch cursor btn -->
     <!-- <SwitchCursorBtn></SwitchCursorBtn> -->
     <!-- Mobile Nav -->
     <div
         class="overflow-hidden md:hidden text-dark-100 font-orbitron items-center text-2xl pl-4 pr-5 p-3 fixed bg-dark-900 border-b-2 w-full z-101 flex flex-row  justify-between">
-        <p><i class="fa-regular fa-planet-ringed"></i> XME-HOME</p>
+        <p><i class="fa-regular fa-planet-ringed"></i> LANXI-HOME</p>
         <p><i class="fa-light fa-bars pr-3 transition-all relative top-[0.1em] active:text-primary-300"
                 @click="beleft"></i>
         </p>
@@ -97,7 +97,7 @@ const beleft = () => {
     <div id="mobile-nav"
         class="fixed w-[100vw] h-[100vh] overflow-hidden bg-dark-900 z-100 left-[100vw] mobile-nav-item md:hidden">
         <MobileNavBlock
-            :navItems="[{ text: 'Home', href: '/' }, { text: 'About', href: '/about' }, { text: 'Links', href: '/links' }, { text: 'Notes', href: 'https://blog.xzadudu179.top' }]" />
+            :navItems="[{ text: 'Home', href: '/' }, { text: 'About', href: '/about' }, { text: 'Links', href: '/links' }, { text: 'Notes', href: 'https://blog.lanxis.top/' }, { text: '爱发电', href: 'https://ifdian.net/a/Lanxifurry' }]" />
         <p
             class="text-dark-300 font-orbitron absolute bottom-0 w-full p-5 pb-3 text-center pointer-events-none tracking-[0.08em]">
             CREATING
