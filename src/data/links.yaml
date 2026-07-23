@@ -1,9 +1,13 @@
 links:
   - has_thumbnail: true
-    list: []
-  - has_thumbnail: false
     list:
       - name: 岚汐的博客
         link: https://blog.lanxis.top/
         avatar: https://pic.lingqi.vip/logo11.jpg
         description: 欢迎来到我的小窝~
+  - has_thumbnail: false
+    list:
+      - name: 平平的小破站
+        link: https://ppkjgzs.top/
+        avatar: https://ppkjgzs.top/images/logo.webp
+        description: 分享Python游戏开发、前端技术和编程技巧
